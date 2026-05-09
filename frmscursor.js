@@ -16,4 +16,6 @@ async function loadComponentWithAssets(containerId, htmlUrl) {
   document.body.appendChild(script);
 }
 
-loadComponentWithAssets('frms', 'https://cdn.jsdelivr.net/gh/vexikoff/firemos@main/indexfrms.html');
+document.addEventListener('DOMContentLoaded', () => {
+    loadComponentWithAssets('frms', 'https://cdn.jsdelivr.net/gh/vexikoff/firemos@main/indexfrms.html');
+});
