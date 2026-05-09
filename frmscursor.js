@@ -28,8 +28,8 @@ async function loadComponentWithAssets(containerId, htmlUrl) {
 
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
-    loadComponentWithAssets('frms', 'https://cdn.jsdelivr.net/gh/vexikoff/firemos@main/indexfrms.html');
+    loadComponentWithAssets('frmsapi', 'https://cdn.jsdelivr.net/gh/vexikoff/firemos@main/indexfrms.html');
   });
 } else {
-  loadComponentWithAssets('frms', 'https://cdn.jsdelivr.net/gh/vexikoff/firemos@main/indexfrms.html');
+  loadComponentWithAssets('frmsapi', 'https://cdn.jsdelivr.net/gh/vexikoff/firemos@main/indexfrms.html');
 }
