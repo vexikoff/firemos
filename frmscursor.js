@@ -16,4 +16,4 @@ async function loadComponentWithAssets(containerId, htmlUrl) {
   document.body.appendChild(script);
 }
 
-loadComponentWithAssets('content-area', 'indexfrms.html');
+loadComponentWithAssets('frms', 'indexfrms.html');
